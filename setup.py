@@ -10,7 +10,7 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['Click>=7.0', 'feedparser>=6.0.10', 'Flask>=2.1.2', 'requests>=2.27.1', 'feedgen>=0.9.0']
+requirements = ['Click>=7.0', 'feedparser>=6.0.0', 'Flask>=2.0.0', 'requests>=2.0.0', 'feedgen>=0.9.0']
 
 test_requirements = [ ]
 

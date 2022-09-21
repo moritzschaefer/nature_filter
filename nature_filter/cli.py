@@ -23,6 +23,13 @@ def main(args=None):
 
     return 0
 
+def test(args=None):
+    """Console script for nature_filter."""
+
+    print(nature_filter())
+
+    return 0
+
 
 if __name__ == "__main__":
     sys.exit(main())  # pragma: no cover

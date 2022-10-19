@@ -8,7 +8,7 @@ import requests
 
 from .feedbridge import Bridge
 
-NATURE_RSS_URL = 'http://feeds.nature.com/nature/rss/current'
+NATURE_RSS_URL = 'https://www.nature.com/nature.rss'
 
 def nature_filter():
     '''
